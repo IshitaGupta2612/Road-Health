@@ -20,7 +20,7 @@ app = Flask(__name__)
 
 @app.route('/')  
 def home ():  
-    return render_template("index.html")  
+    return render_template("upload.html")  
 
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 im = ''
